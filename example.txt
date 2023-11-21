@@ -1,0 +1,246 @@
+CSCAN-AWS0010
+Amazon S3 Client Secret Access Key
+AWS Secret: abcdefghijklmnopqrst0123456789/+ABCDEFGH;
+
+CSCAN-AZURE0010
+Azure Subscription Management Certificate
+Sample: <Subscription id="..." ManagementCertificate="MIIPuQIBGSIb3DQEHAaC..."
+
+CSCAN-AZURE0020
+Azure SQL Connection String
+Sample: <add key="ConnectionString" value="server=tcp:server.database.windows.net;database=database;user=user;password=ZYXWVU_2;"
+
+CSCAN-AZURE0030
+Azure Service Bus Shared Access Signature
+Sample: Endpoint=sb://account.servicebus.windows.net;SharedAccessKey=abcdefghijklmnopqrstuvwxyz0123456789/+ABCDE= <br>ServiceBusNamespace=...SharedAccessPolicy=...Key=abcdefghijklmnopqrstuvwxyz0123456789/+ABCDE=
+
+CSCAN-AZURE0040
+Azure Redis Cache Connection String Password
+Sample: HostName=account.redis.cache.windows.net;Password=abcdefghijklmnopqrstuvwxyz0123456789/+ABCDE=
+
+CSCAN-AZURE0041
+Azure Redis Cache Identifiable Secret
+Sample: HostName=account.redis.cache.windows.net;Password= cThIYLCD6H7LrWrNHQjxhaSBu42KeSzGlAzCaNQJXdA=
+HostName=account.redis.cache.windows.net;Password= fbQqSu216MvwNaquSqpI8MV0hqlUPgGChOY19dc9xDRMAzCaixCYbQ
+
+CSCAN-AZURE0050
+Azure IoT Shared Access Key
+Sample: HostName=account.azure-devices.net;SharedAccessKeyName=key;SharedAccessKey=abcdefghijklmnopqrstuvwxyz0123456789/+ABCDE=
+iotHub...abcdefghijklmnopqrstuvwxyz0123456789/+ABCDE=
+
+CSCAN-AZURE0060
+Azure Storage Account Shared Access Signature
+Sample: https://account.blob.core.windows.net/?sr=...&sv=...&st=...&se=...&sp=...&sig=abcdefghijklmnopqrstuvwxyz0123456789%2F%2BABCDE%3D
+
+CSCAN-AZURE0061
+Azure Storage Account Shared Access Signature for High Risk Resources
+Sample: https://account.blob.core.windows.net/file.cspkg?...&sig=abcdefghijklmnopqrstuvwxyz0123456789%2F%2BABCDE%3D
+
+CSCAN-AZURE0062
+Azure Logic App Shared Access Signature
+Sample: https://account.logic.azure.com/?...&sig=abcdefghijklmnopqrstuvwxyz0123456789%2F%2BABCDE%3D
+
+CSCAN-AZURE0070
+Azure Storage Account Access Key
+Sample: Endpoint=account.table.core.windows.net;AccountName=account;AccountKey=abcdefghijklmnopqrstuvwxyz0123456789/+ABCDEabcdefghijklmnopqrstuvwxyz0123456789/+ABCDE==
+AccountName=account;AccountKey=abcdefghijklmnopqrstuvwxyz0123456789/+ABCDEabcdefghijklmnopqrstuvwxyz0123456789/+ABCDE==...;
+PrimaryKey=abcdefghijklmnopqrstuvwxyz0123456789/+ABCDEabcdefghijklmnopqrstuvwxyz0123456789/+ABCDE==
+
+CSCAN-AZURE0071
+Azure Storage Identifiable Secret
+Sample: Endpoint=table.core.windows.net;AccountName=account;AccountKey=U1imXW0acA5QRtnkKuW14QPSC/F1JFS9mOjd8Ny/Muab42CVkI8G0/ja7uM13GlfiS8pp4c/kzYp+AStvBjS1w==
+AccountName=accountAccountKey=U1imXW0acA5QRtnkKuW14QPSC/F1JFS9mOjd8Ny/Muab42CVkI8G0/ja7uM13GlfiS8pp4c/kzYp+AStvBjS1w==;EndpointSuffix=...;
+PrimaryKey=U1imXW0acA5QRtnkKuW14QPSC/F1JFS9mOjd8Ny/Muab42CVkI8G0/ja7uM13GlfiS8pp4c/kzYp+AStvBjS1w==
+
+CSCAN-AZURE0080
+Azure COSMOS DB Account Access Key
+Sample: AccountEndpoint=https://account.documents.azure.com;AccountKey=abcdefghijklmnopqrstuvwxyz0123456789/+ABCDEabcdefghijklmnopqrstuvwxyz0123456789/+ABCDE== DocDbConnectionStr...abcdefghijklmnopqrstuvwxyz0123456789/+ABCDEabcdefghijklmnopqrstuvwxyz0123456789/+ABCDE==
+
+CSCAN-AZURE0081
+Identifiable Azure COSMOS DB Account Access Key
+Sample: AccountEndpoint=https://account.documents.azure.com;AccountKey=abcdefghijklmnopqrstuvwxyz0123456789/+ABCDEabcdefghijklmnopqrstuvwxyz0123456789/+ABCDE==
+DocDbConnectionStr...abcdefghijklmnopqrstuvwxyz0123456789/+ABCDEabcdefghijklmnopqrstuvwxyz0123456789/+ABCDE==
+
+CSCAN-AZURE0090
+Azure App Service Deployment Password
+Sample: userPWD=abcdefghijklmnopqrstuvwxyz0123456789/+ABCDEFGHIJKLMNOPQRSTUV;
+PublishingPassword=abcdefghijklmnopqrstuvwxyz0123456789/+ABCDEFGHIJKLMNOPQRSTUV;
+
+CSCAN-AZURE0100
+Azure DevOps Personal Access Token
+Sample: URL="org.visualstudio.com/proj"; PAT = "ntpi2ch67ci2vjzcohglogyygwo5fuyl365n2zdowwxhsys6jnoa"
+URL="dev.azure.com/org/proj"; PAT = "ntpi2ch67ci2vjzcohglogyygwo5fuyl365n2zdowwxhsys6jnoa"
+
+CSCAN-AZURE0101
+Azure DevOps App Secret
+Sample: AdoAppId=...;AdoAppSecret=ntph2ch67ciqunzcohglogyygwo5fuyl365n4zdowwxhsys6jnoa;
+
+CSCAN-AZURE0120
+Azure Function Primary / API Key
+Sample: https://account.azurewebsites.net/api/function?code=abcdefghijklmnopqrstuvwxyz0123456789%2F%2BABCDEF0123456789%3D%3D...
+ApiEndpoint=account.azurewebsites.net/api/function;ApiKey=abcdefghijklmnopqrstuvwxyz0123456789/+ABCDEFGHIJKLMNOP==;
+x-functions-key:abcdefghijklmnopqrstuvwxyz0123456789/+ABCDEFGHIJKLMNOP==
+
+CSCAN-AZURE0121
+Identifiable Azure Function Primary / API Key
+Sample: https://account.azurewebsites.net/api/function?code=abcdefghijklmnopqrstuvwxyz0123456789%2F%2BABCDEF0123456789%3D%3D...
+ApiEndpoint=account.azurewebsites.net/api/function;ApiKey=abcdefghijklmnopqrstuvwxyz0123456789/+ABCDEFGHIJKLMNOP==;
+x-functions-key:abcdefghijklmnopqrstuvwxyz0123456789/+ABCDEFGHIJKLMNOP==
+
+CSCAN-AZURE0130
+Azure Shared Access Key / Web Hook Token
+Sample: PrimaryKey=abcdefghijklmnopqrstuvwxyz0123456789/+ABCDE=;
+
+CSCAN-AZURE0140
+Microsoft Entra Client Access Token
+Sample: Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJS...
+
+CSCAN-AZURE0150
+Microsoft Entra user Credentials
+Sample: username=user@tenant.onmicrosoft.com;password=ZYXWVU$1;
+
+CSCAN-AZURE0151
+Microsoft Entra Client Secret
+Sample: "AppId=01234567-abcd-abcd-abcd-abcdef012345;AppSecret="abc7Q~defghijklmnopqrstuvwxyz-_.~0123"
+"AppId=01234567-abcd-abcd-abcd-abcdef012345;AppSecret="abc8Q~defghijklmnopqrstuvwxyz-_.~0123456"
+
+CSCAN-AZURE0152
+Azure Bot Service App Secret
+Sample: "account.azurewebsites.net/api/messages;AppId=01234567-abcd-abcd-abcd-abcdef012345;AppSecret="abcdeFGHIJ0K1234567%;[@"
+
+CSCAN-AZURE0160
+Azure Databricks Personal Access Token
+Sample: account.azuredatabricks.net;PAT=dapiabcdef0123456789abcdef0123456789;
+
+CSCAN-AZURE0170
+Azure Container Registry Access Key
+Sample: account.azurecr.io/ #docker password: abcdefghijklmnopqr0123456789/+AB;
+
+CSCAN-AZURE0180
+Azure Batch Shared Access Key
+Sample: Account=account.batch.azure.net;AccountKey=abcdefghijklmnopqrstuvwxyz0123456789/+ABCDE=;
+
+CSCAN-AZURE0181
+Identifiable Azure Batch Shared Access Key
+Sample: Account=account.batch.azure.net;AccountKey=abcdefghijklmnopqrstuvwxyz0123456789/+ABCDE=;
+
+CSCAN-AZURE0190
+Azure SignalR Access Key
+Sample: host: account.service.signalr.net; accesskey: abcdefghijklmnopqrstuvwxyz0123456789/+ABCDE=;
+
+CSCAN-AZURE0200
+Azure Event Grid Access Key
+Sample: host: account.eventgrid.azure.net; accesskey: abcdefghijklmnopqrstuvwxyz0123456789/+ABCDE=;
+
+CSCAN-AZURE0210
+Azure Machine Learning Web Service API Key
+Sample: host: account.azureml.net/services/01234567-abcd-abcd-abcd-abcdef012345/workspaces/01234567-abcd-abcd-abcd-abcdef012345/; apikey: abcdefghijklmnopqrstuvwxyz0123456789/+ABCDEabcdefghijklmnopqrstuvwxyz0123456789/+ABCDE==;
+
+CSCAN-AZURE0211
+Identifiable Azure Machine Learning Web Service API Key
+Sample: host: account.azureml.net/services/01234567-abcd-abcd-abcd-abcdef012345/workspaces/01234567-abcd-abcd-abcd-abcdef012345/; apikey: abcdefghijklmnopqrstuvwxyz0123456789/+ABCDEabcdefghijklmnopqrstuvwxyz0123456789/+ABCDE==
+
+CSCAN-AZURE0220
+Azure Cognitive Search API Key
+Sample: host: account.search.windows.net; apikey: abcdef0123456789abcdef0123456789;
+
+CSCAN-AZURE0221
+Azure Cognitive Service Key
+Sample: cognitiveservices.azure.com...apikey= abcdef0123456789abcdef0123456789;
+api.cognitive.microsoft.com...apikey= abcdef0123456789abcdef0123456789;
+
+CSCAN-AZURE0222
+Identifiable Azure Cognitive Search Key
+Sample: cognitiveservices.azure.com...apikey= abcdefghijklmnopqrstuvwxyz0123456789ABCDEFAzSeKLMNOP;
+api.cognitive.microsoft.com...apikey= abcdefghijklmnopqrstuvwxyz0123456789ABCDEFAzSeKLMNOP;
+
+CSCAN-AZURE0230
+Azure Maps Subscription Key
+Sample: host: atlas.microsoft.com; key: abcdefghijklmnopqrstuvwxyz0123456789-_ABCDE;
+
+CSCAN-AZURE0250
+Azure Bot Framework Secret Key
+Sample: host: webchat.botframework.com/?s=abcdefghijklmnopqrstuvwxyz.0123456789_ABCDEabcdefghijkl&...
+host: webchat.botframework.com/?s=abcdefghijk.lmn.opq.rstuvwxyz0123456789-_ABCDEFGHIJKLMNOPQRSTUV&...
+
+CSCAN-GENERAL0020
+X.509 Certificate Private Key
+Sample: ���������������� (binary certificate file: *.pfx, *.key...)
+-----BEGIN PRIVATE KEY----- MIIPuQIBAzCCD38GCSqGSIb3DQEH...
+-----BEGIN RSA PRIVATE KEY----- ��������������� ...
+-----BEGIN DSA PRIVATE KEY----- MIIPuQIBAzCCD38GCSqGSIb3DQEH...
+-----BEGIN EC PRIVATE KEY----- ��������������� ...
+-----BEGIN OPENSSH PRIVATE KEY----- MIIPuQIBAzCCD38GCSqGSIb3DQEH...
+certificate = "MIIPuQIBAzCCD38GCSqGSIb3DQEH..."
+
+CSCAN-GENERAL0030
+User sign in Credentials
+Sample: { "user": "user_name", "password": "ZYXWVU_2" }
+
+CSCAN-GENERAL0031
+ODBC Connection String
+Sample: data source=...;initial catalog=...;user=...;password=ZYXWVU_2;
+
+CSCAN-GENERAL0050
+ASP.NET Machine Key
+Sample: machineKey validationKey="ABCDEF0123456789ABCDEF0123456789ABCDEF0123456789" decryptionKey="ABCDEF0123456789ABCDEF0123456789ABCDEF0123456789"...
+
+CSCAN-GENERAL0060
+General Password
+Sample: UserName=...;Passwpod=abcdefgh0123456789/+AB==;
+tool.exe ...-u ... -p..."ZYXWVU_2"...
+<secret>ZYXWVU_3</secret>
+NetworkCredential(..., ZYXWVU_2)
+net use .../u:redmond... /p ZYXWVU_2
+schtasks.../ru ntdev.../rp ZYXWVU_2
+RemoteUserNameParameter:...;;RemotePasswordParameter:***;;
+
+CSCAN-GENERAL0070
+General Password in URL
+Sample: s://my.zoom.us/636362?pwd=ZYXWVU
+https://www.microsoft.com/?secret=ZYXWVU
+
+CSCAN-GENERAL0120
+Http Authorization Header
+Sample: Authorization: Basic ABCDEFGHIJKLMNOPQRS0123456789;
+Authorization: Digest ABCDEFGHIJKLMNOPQRS0123456789;
+
+CSCAN-GENERAL0130
+Client Secret / API Key
+Sample: client_secret=abcdefghijklmnopqrstuvwxyz0123456789/+ABCDE=
+ida:password=abcdefghijklmnopqrstuvwxyz0123456789/+ABCDE=
+ida:...issuer...Api...abcdefghijklmnopqrstuvwxyz0123456789/+ABCDE=
+Namespace...ACS...Issuer...abcdefghijklmnopqrstuvwxyz0123456789/+ABCDE=
+IssuerName...IssuerSecret=abcdefghijklmnopqrstuvwxyz0123456789/+ABCDE=
+App_Secret=abcdefghijklmnopqrstuvwxyz0123456789/+ABCDEabcdefghijklmnopqrstuvwxyz0123456789/+ABCDE==
+
+CSCAN-GENERAL0140
+General Symmetric Key
+Sample: key=abcdefghijklmnopqrstuvwxyz0123456789/+ABCDE=;
+
+CSCAN-GENERAL0150
+Ansible Vault
+Sample: $ANSIBLE_VAULT;1.1;AES256abcdefghijklmnopqrstuvwxyz0123456789/+ABCDE...
+
+CSCAN-GH0010
+GitHub Personal Access Token
+Sample: pat=ghp_abcdefghijklmnopqrstuvwxyzABCD012345
+pat=v1.abcdef0123456789abcdef0123456789abcdef01
+https://user:abcdef0123456789abcdef0123456789abcdef01@github.com
+
+CSCAN-GOOG0010
+Google API key
+Sample: apiKey=AIzaefgh0123456789_-ABCDEFGHIJKLMNOPQRS;
+
+CSCAN-MSFT0100
+Microsoft Bing Maps Key
+Sample: bingMapsKey=abcdefghijklmnopqrstuvwxyz0123456789-_ABCDEabcdefghijklmnopqrstu
+...bing.com/api/maps/...key=abcdefghijklmnopqrstuvwxyz0123456789-_ABCDEabcdefghijklmnopqrstu
+...dev.virtualearth.net/...key=abcdefghijklmnopqrstuvwxyz0123456789-_ABCDEabcdefghijklmnopqrstu
+
+CSCAN-WORK0010
+Slack Access Token
+Sample: slack_token= xoxp-abcdef-abcdef-abcdef-abcdef ;
+slack_token= xoxb-abcdef-abcdef ;
+slack_token= xoxa-2-abcdef-abcdef-abcdef-abcdef ;
+slack_token= xoxr-abcdef-abcdef-abcdef-abcdef ;
